@@ -17,7 +17,7 @@ A comprehensive web application built with FastAPI that enables students to expl
 
 ### Authentication & Security
 - **Teacher Authentication**: Secure login system for teachers to manage student registrations
-- **Session Management**: Persistent login sessions with proper logout functionality
+- **Client-side Session Management**: Login state persisted locally with logout functionality
 - **Role-based Access**: Authentication required for student registration and management
 
 ### User Interface
@@ -32,7 +32,7 @@ A comprehensive web application built with FastAPI that enables students to expl
 - **Database**: MongoDB for data persistence
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Server**: Uvicorn ASGI server
-- **Authentication**: Session-based authentication with password hashing
+- **Authentication**: Stateless authentication with SHA-256 password hashing
 
 ## API Endpoints
 
